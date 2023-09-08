@@ -1,0 +1,13 @@
+**As a** DevOps Engineer 
+**I need** to create an environment
+**So that** users can create there account
+      
+### Details and Assumptions
+    * I need to create CI/CD pipeline to build, test and deploy the application
+      for users to use it to create, update and delete there accounts. 
+### Acceptance Criteria     
+    gherkin 
+    Given using microservice code
+    When there is a code commit on my master branch
+    Then trigger a CI pipeline to build and test the code changes and create a docker image and push to
+    container registry.
